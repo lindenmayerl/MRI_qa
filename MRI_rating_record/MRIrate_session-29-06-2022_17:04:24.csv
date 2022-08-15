@@ -1,4 +1,0 @@
-filepath,rating,date,susceptibility,motion,flow,label
-/home/unimelb.edu.au/mollyi/mnt/benji/projects/NYU/hep_20220328/hep_bids_cleaned_20220411/sub-UCSF0029/ses-20150224/anat/sub-UCSF0029_ses-20150224_T1w.nii,1,29-06-2022_17:04,,4,,flair
-/home/unimelb.edu.au/mollyi/mnt/benji/projects/NYU/hep_20220328/hep_bids_cleaned_20220411/sub-YALE0010/ses-20160117/anat/sub-YALE0010_ses-20160117_FLAIR.nii,4,29-06-2022_17:04,2,3,3,
-/home/unimelb.edu.au/mollyi/mnt/benji/projects/NYU/hep_20220328/hep_bids_cleaned_20220411/sub-YALE0010/ses-20160117/anat/sub-YALE0010_ses-20160117_T1w.nii,3,29-06-2022_17:06,,3,,ff

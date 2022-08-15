@@ -1,0 +1,53 @@
+INSTRUCTIONS: MRI Rating Tool
+
+The simple MRI rating tool allows users to open MRI images and provide a numerical rating that describes the impact of artifact on the image quality.
+
+___________________________________________________________________________________
+
+Requirements:  
+
+    ITK-SNAP (medical image viewing software) 
+
+        http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP3  
+
+    Python (latest stable version recommended) 
+
+        https://www.python.org/downloads/  
+        
+___________________________________________________________________________________
+
+ Step 1: Ensure all necessary files are in the correct directory  
+ 
+ 1. Create a directory to insert all required files 
+ 2. Download the python (.py) files into this directory (simpledb_objects.py, mri_qa-marker.py)
+ 3. Create a sub-directory in this directory and copy the niifty format MRI images to be reviewed into here 
+ 
+ 
+ Section 2: Run the script
+ 
+ 1. Run the script 'mri_qa-marker.py' using python in the terminal, code will depend on python version 
+ 	a. For python v3: python3 mri_qa-marker.py
+ 	b. Else: python mri_qa-marker.py
+ Note: if this is the first time running the rating tool, a directory will be created titled 'mri_rating_record' where output
+ rating files will be stored
+ 	
+2. Select your session 
+	a. Resume Session
+	b. Start New Session
+
+3a. Choosing a new session will bring up ITK-SNAP in a new window 
+	a. Provide your rating in the terminal and press enter
+	b. DO NOT CLOSE ITK-SNAP: after your review has been entered the current image will be closed and the next 
+	image to be reviewed will automatically be opened
+3b. Resuming a previous session will prompt you to select the session your wish to resume before opening ITK-SNAP
+	a. Select your session by entering the corresponding number 
+	b. Provide your rating in the terminal and press enter
+	c. DO NOT CLOSE ITK-SNAP: after your review has been entered the current image will be closed and the next 
+	image to be reviewed will automatically be opened 
+4. Ending your session 
+	a. Session will end when images are all reviewed, to end early input ctrl+C 
+	b. Select whether you wish to create a .csv file for your ratings (if yes, the file will be in the 		'mri_rating_record' folder with the .json file)
+
+Note: it is not necessary to make a .csv file to save your review, they will be automatically saved as a .json file 
+	
+
